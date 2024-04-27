@@ -5,7 +5,7 @@ import EmojiPicker from "emoji-picker-react";
 import Messages from "./Messages";
 import Users from "./Users";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://rai-o-ss.onrender.com");
 
 const Room = () => {
     const { search } = useLocation();
